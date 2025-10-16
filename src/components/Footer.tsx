@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter, Youtube, Code2 } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter, Youtube } from 'lucide-react'
 
 const Footer: React.FC = () => {
   const quickLinks = [

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Users, Code2, Laptop, Smartphone, Palette } from 'lucide-react'
+import { Code2, Laptop, Smartphone, Palette } from 'lucide-react'
 
 const Team: React.FC = () => {
 
