@@ -124,9 +124,9 @@ const Team: React.FC = () => {
         </div>
 
 
-        {/* Departments */}
+        {/* Jurusan */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Departemen</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Jurusan</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {departments.map((dept, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-200">
@@ -134,11 +134,7 @@ const Team: React.FC = () => {
                   <dept.icon className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2 text-center">{dept.name}</h4>
-                <p className="text-gray-600 text-center mb-4">{dept.description}</p>
-                <div className="text-center">
-                  <span className="text-2xl font-bold text-primary-600">{dept.members}</span>
-                  <p className="text-sm text-gray-500">Anggota</p>
-                </div>
+                <p className="text-gray-600 text-center">{dept.description}</p>
               </div>
             ))}
           </div>
