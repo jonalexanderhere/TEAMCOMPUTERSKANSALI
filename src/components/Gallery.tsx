@@ -19,9 +19,9 @@ const Gallery: React.FC = () => {
     <section id="gallery" className="section-padding bg-gray-50">
       <div className="container-custom">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Galeri & Dokumen</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">Galeri & Dokumen</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Dokumentasi kegiatan dan dokumen penting Team Computer
           </p>
         </div>

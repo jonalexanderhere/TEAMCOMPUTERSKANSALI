@@ -91,9 +91,9 @@ const Activities: React.FC = () => {
     <section id="activities" className="section-padding bg-gray-50">
       <div className="container-custom">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Kegiatan & Prestasi</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">Kegiatan & Prestasi</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Berbagai kegiatan pembelajaran dan prestasi yang telah dicapai Team Computer 
             dalam mengembangkan potensi teknologi siswa.
           </p>

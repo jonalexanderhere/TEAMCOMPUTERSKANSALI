@@ -52,9 +52,9 @@ const About: React.FC = () => {
     <section id="about" className="section-padding bg-white">
       <div className="container-custom">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Tentang Team Computer</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">Tentang Team Computer</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Team Computer adalah ekstrakurikuler teknologi di SMK Negeri 1 Liwa yang fokus 
             pada pengembangan skill komputer dan teknologi digital untuk mempersiapkan siswa 
             menghadapi tantangan era digital.

@@ -102,9 +102,9 @@ const Team: React.FC = () => {
     <section id="team" className="section-padding bg-white">
       <div className="container-custom">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Tim Kami</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">Tim Kami</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Tim yang terdiri dari siswa-siswa berprestasi dengan berbagai keahlian 
             di bidang teknologi dan komputer.
           </p>
